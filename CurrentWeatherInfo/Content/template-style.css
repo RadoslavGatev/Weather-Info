@@ -1,0 +1,272 @@
+body {
+    font: normal 100% 'trebuchet ms', arial, sans-serif;
+    background: #F5F5EE;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+img {
+    border: 0;
+}
+
+section#site_content h1, section#site_content h2, section#site_content h3, section#site_content h4, section#site_content h5, section#site_content h6 {
+    color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+}
+
+section#site_content h1, section#site_content h2, section#site_content h3 {
+    font: normal 150% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+section#site_content h2 {
+    font-size: 130%;
+    padding: 9px 0 5px 0;
+    color: #009FBC;
+}
+
+section#site_content h3 {
+    font-size: 110%;
+    padding: 5px 0 0 0;
+}
+
+section#site_content h4, section#site_content h6 {
+    color: #009FBC;
+    padding: 0 0 5px 0;
+    font: normal 110% arial;
+    text-transform: uppercase;
+}
+
+section#site_content h5, section#site_content h6 {
+    color: #888;
+    font: normal 95% arial;
+    letter-spacing: normal;
+    padding: 0 0 15px 0;
+}
+
+#sidebar_container a,
+#sidebar_container a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #AEB002;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px 0 20px;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+}
+
+ol {
+    margin: 8px 0 22px 20px;
+}
+
+    ol li {
+        margin: 0 0 11px 0;
+    }
+
+header {
+    background: #323534 url(../Images/back.png) bottom repeat-x;
+    padding-bottom: 5px;
+}
+
+#logo {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+    #logo #logo_text {
+        top: 10px;
+        left: 0;
+    }
+
+    #logo h1, #logo h2 {
+        font: normal 250% 'century gothic', arial, sans-serif;
+        border-bottom: 0;
+        text-transform: none;
+        margin: 0 0 0 9px;
+    }
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #FFF;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+    #logo_text h1 a .logo_colour {
+        color: #E4EC04;
+    }
+
+#logo_text a:hover .logo_colour {
+    color: #FFF;
+}
+
+#logo_text h2 {
+    font-size: 120%;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+#site_content {
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 0 0 10px 0;
+}
+
+
+.sidebar {
+    padding: 0;
+    margin: 0 0 16px 0;
+    border: groove thin black;
+    border-color: rgba(224, 224, 224, 0.6);
+    border-radius: 10px;
+    -mos-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.sidebar_item {
+    padding: 0 15px;
+}
+
+.sidebar li a.selected {
+    color: #444;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+#content {
+    text-align: left;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+    #content ul {
+        margin: 2px 0 22px 0px;
+    }
+
+        #content ul li, .sidebar ul li {
+            list-style-type: none;
+            background: url(../Images/bullet.png) no-repeat;
+            margin: 0 0 0 0;
+            padding: 0 0 4px 25px;
+            line-height: 1.5em;
+        }
+
+footer {
+    font-family: 'trebuchet ms', sans-serif;
+    font-size: 100%;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background: #3B3939 url(../Images/footer.png) repeat-x;
+    color: #A8AA94;
+}
+
+    footer p {
+        line-height: 1em;
+        padding: 0 0 5px 0;
+    }
+
+    footer a {
+        color: #A8AA94;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+.search {
+    color: #5D5D5D;
+    border: 1px solid #BBB;
+    padding: 4px;
+    font: 100% arial, sans-serif;
+}
+
+.form_settings {
+    margin: 15px 0 0 0;
+}
+
+    .form_settings p {
+        padding: 0 0 4px 0;
+    }
+
+    .form_settings span {
+        float: left;
+        text-align: left;
+    }
+
+    .form_settings input, .form_settings textarea {
+        padding: 5px;
+        font: 100% arial;
+        border: 1px solid #E5E5DB;
+        background: #FFF;
+        color: #47433F;
+    }
+
+    .form_settings .submit {
+        font: 100% arial;
+        border: 0;
+        margin: 0 0 0 212px;
+        height: 33px;
+        padding: 2px 0 3px 0;
+        cursor: pointer;
+        background: #3B3B3B;
+        color: #FFF;
+    }
+
+    .form_settings textarea, .form_settings select {
+        font: 100% arial;
+    }
+
+    .form_settings select {
+    }
+
+    .form_settings .checkbox {
+        margin: 4px 0;
+        padding: 0;
+        width: 14px;
+        border: 0;
+        background: none;
+    }
+
+table {
+    margin: 10px 0 30px 0;
+}
+
+    table tr th, table tr td {
+        background: #3B3B3B;
+        color: #FFF;
+        padding: 7px 4px;
+        text-align: left;
+    }
+
+    table tr td {
+        background: #E5E5DB;
+        color: #47433F;
+        border-top: 1px solid #FFF;
+    }
+
+div#current-weather * {
+    font-size: 110% !important;
+}
+
+input#town-name {
+    margin-bottom: 7px;
+}

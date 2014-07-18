@@ -1,0 +1,5 @@
+﻿<div class="weather">
+  <div class="weather-coord"><%= coord.lon %></div>
+  <div class="weather-title"><%= weather.coord.lon %></div>
+  <div class="weather-price">$<%= weather.name %></div>
+</div>

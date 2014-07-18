@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Search By City";
+}
+
+@section scripts{
+
+   @Scripts.Render("~/Scripts/application/searchweatherbycity.js")
+}
+
+<h1>Search Weather By City</h1>
+<input id="town-name" autofocus="autofocus" placeholder="Sofia, BG"/>
+<a id="weather-by-town-button" class="button" >Current Weather</a>
+<div id="current-weather"></div>

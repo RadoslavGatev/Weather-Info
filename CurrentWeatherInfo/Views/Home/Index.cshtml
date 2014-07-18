@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@section scripts{
+
+   @Scripts.Render("~/Scripts/application/home.js")
+}
+
+<h1>Home</h1>
+<a id="current-weather-button" class="button" href="#GetCurrentWeather/" >Current Weather</a>
+<div id="current-weather"></div>
