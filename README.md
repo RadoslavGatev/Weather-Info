@@ -9,4 +9,4 @@ This is ASP.NET MVC 4 project. It is consuming the two service clients below. It
 Client library intended to cosnume queries to http://freegeoip.net/ web service.
 
 ##OpenWeatherMapWebServiceClient 
-Client library intended to consume queries to openweathermap.org api
+Client library intended to consume queries to http://openweathermap.org api.
